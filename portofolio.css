@@ -1,0 +1,155 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        text-decoration: none;
+    
+    }
+    
+    body {
+    
+        font-family: 'Poppins', sans-serif;
+        background-color: #001524;
+    
+    }
+    
+    header{
+        background-color: #001524;
+    }
+    .navbar {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        border: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+    
+    
+    .navbar a {
+        margin-right: 40px;
+        color: #2ecc71;
+    }
+    
+    .logo {
+        margin-left: 40px;
+        margin-right: 50px;
+        color: #2ecc71;
+    }
+    
+    .logo span {
+        font-weight: 700;
+        color: #fff;
+    }
+    
+    .list {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+    
+    #toggler, .navbar label {
+        display: none;
+    }
+
+    section h1{
+        margin: 3rem;
+        text-align: center;
+        color: #2ecc71;
+    }
+
+    section h1 span {
+        color: #fff;
+    }
+
+    .container {
+        margin: 7%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .row .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        border: 3px solid #2ecc71;
+        border-radius: 10px;
+        width: 50rem;
+        height: 40rem;
+    }
+
+    .row .card .gambar img{
+        width: 20rem;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .row .card .judul {
+        padding: 1rem;
+    }
+
+    .row .card .judul h2{
+        color: #fff;
+        text-align: center;
+        margin: 1rem;
+    }
+    
+    .row .card .judul p{
+        color: #fff;
+        text-align: justify;
+    }
+
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    .footer-logo {
+        color: #2ecc71;
+    }
+    .footer-logo span{
+        color: #fff;
+    }
+    
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    
+    .footer-links li {
+        margin-right: 20px;
+    }
+    
+    .footer-links a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .footer-bottom {
+        margin-top: 5px;
+        text-align: center;
+    }
+    

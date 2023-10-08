@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Poppins:ital,wght@0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Belajar Aos -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>I'm <span>Rizki</span></h1>
+            </div>
+            <input type="checkbox" id="toggler">
+            <label for="toggler"><i data-feather="menu"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.css">Portfolio</a></li>
+                    <li><a href="artikel.html">Artikel</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+        <div class="hero">
+            <div class="salam">
+                <p>Hallo World, I'm </p>
+                <h1>Rizki Ahmad Fadhilah</h1>
+                <h4>Web <span>Development</span></h4>
+                <button class="btn-contact"><a href="#contact">Contact me</a></button>
+            </div>
+            <div class="gambar-saya">
+                <img src="img/logo.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="about">
+                <div class="gambar-about">
+                    <img src="img/saya.jpg" alt="">
+                </div>
+                <div class="deskripsi-about">
+                    <h2 class="judul-about">About <span>me</span></h2>
+                    <p><span>S</span>aya adalah mahasiswa di Universitas Bhayangkara Jakarta Raya, dan jurusan saya
+                        adalah informatika. Sekarang saya sedang mengikuti
+                        program Fullstack Development MBKM di Skilvul, karna saya sangat tertarik untuk bisa
+                        mengembangkan diri saya sebagai Web Development.</p>
+                    <button class="btn-about"><a href="about.html">About me</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="judul-spesial"><span>My</span> Expertise</h2>
+            <div class="card">
+                <div class="card-spesial">
+                    <h1>UI/UX</h1>
+                    <p>UI (User Interface) dan UX (User Experience) adalah dua konsep penting dalam
+                        desain perangkat lunak dan pengalaman pengguna.</p>
+                </div>
+                <div class="card-spesial">
+                    <h1>Web Development</h1>
+                    <p> proses pembuatan, pengembangan, dan pemeliharaan situs web atau aplikasi web lorem.</p>
+                </div>
+                <div class="card-spesial">
+                    <h1>Database</h1>
+                    <p>Kumpulan data yang terorganisir secara struktural dan disimpan dalam komputer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="contact-saya">
+                <div class="talk">
+                    <h1><span>Lets,</span><br>talk to me</h1>
+                </div>
+                <div class="form-contact">
+                    <section class="isi-form" id="contact">
+                        <form>
+                          <fieldset>
+                            <legend><span>Contact</span> Me</legend>
+                            <div class="field">
+                              <input id="f-name" type="text" autocomplete="off">
+                              <label for="f-name">Name</label>
+                              <span class="line"></span>
+                            </div>
+                            <div class="field">
+                              <input id="f-email" type="text" autocomplete="off">
+                              <label for="f-email">E-mail</label>
+                              <span class="line"></span>
+                            </div>
+                            <div class="field">
+                              <textarea name="pesan" id="f-pesan" cols="30" rows="10"></textarea>
+                              <label for="f-pesan">Pesan</label>
+                              <span class="line"></span>
+                            </div>
+                            <div class="button">
+                              <button type="button">Kirim</button>
+                            </div>
+                          </fieldset>
+                        </form>
+                      </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h1>Personal <span>Website</span></h1>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#"><i data-feather="instagram"></i></a></li>
+                    <li><a href="#"><i data-feather="github"></i></a></li>
+                    <li><a href="#"><i data-feather="phone"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Thank you for coming</p>
+        </div>
+    </footer>
+
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>

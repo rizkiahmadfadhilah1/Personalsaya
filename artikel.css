@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    
+  
+  }
+  
+  body {
+   
+      font-family: 'Poppins', sans-serif;
+      background-color: #001524;
+  
+  }
+  
+  
+header{
+    background-color: #001524;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+   
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+
+.navbar a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-right: 50px;
+    color: #2ecc71;
+}
+
+.logo span {
+    font-weight: 700;
+    color: #fff;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+#toggler, .navbar label {
+    display: none;
+}
+
+
+  .container{
+    margin: 5%;
+  }
+
+  .artikel-atas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .artikel-apa {
+    width: 28rem;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .judul-artikel {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .judul-artikel span {
+    color: #2ecc71;
+  }
+
+  .artikel {
+    margin: 2%;
+  }
+
+  .artikel .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify ;
+    color: #fff;
+    border: 2px solid #2ecc71;
+    
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 2rem;
+    transition: all 3s;
+
+    transition: transform 1s ease-in-out;
+    transform: translateY(0);
+  }
+  .artikel .card.animate {
+    transform: translateY(-30px);
+}
+
+ .gambar-artikel img{
+    width: 10rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+  }
+
+  .card .isi-artikel {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .card h2{
+    color: #2ecc71;
+  }
+
+  .card p {
+    font-size: 20px;
+  }
+
+  .card p a{
+    color: blue;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer-logo {
+    color: #2ecc71;
+  }
+  .footer-logo span{
+    color: #fff;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
